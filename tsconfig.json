@@ -18,7 +18,7 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
     "strictNullChecks": true,
-    "types": ["vite/client", "vitest"],
+    "types": ["vite/client", "vitest/globals"],
 
     /* Path mapping */
     "baseUrl": ".",
@@ -27,5 +27,5 @@
       "@public/*": ["public/*"]
     } // Must be sync with vite.config.js and eslint.config.js
   },
-  "include": ["src"]
+  "include": ["src", "vite-env.d.ts"]
 }
