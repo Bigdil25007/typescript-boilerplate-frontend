@@ -105,24 +105,26 @@ To customize the project, you can modify the following files:
 
 ### Project Structure
 
+```
 .
-├── .editorconfig # Editor configuration
-├── .eslintrc.cjs # ESLint configuration
-├── .gitignore # Git ignore file
-├── .husky # Husky configuration
-│ └── pre-commit # Pre-commit hook
-├── .nvmrc # Node version manager configuration
-├── .prettierignore # Prettier ignore file
-├── .prettierrc # Prettier configuration
-├── [package.json](http://_vscodecontentref_/0) # NPM package configuration
-├── [tsconfig.json](http://_vscodecontentref_/1) # TypeScript configuration
-├── [vite.config.js](http://_vscodecontentref_/2) # Vite configuration
-├── vitest.config.ts # Vitest configuration
-├── src # Source code
-│ ├── main.ts # Main entry point
-│ ├── main.test.ts # Example test file
-│ └── [vite-env.d.ts](http://_vscodecontentref_/3) # TypeScript environment definitions
-└── README.md # Project documentation
+├── .editorconfig
+├── .eslintrc.cjs
+├── .gitignore
+├── .husky
+│   └── pre-commit
+├── .nvmrc
+├── .prettierignore
+├── .prettierrc
+├── [package.json](http://_vscodecontentref_/0)
+├── [tsconfig.json](http://_vscodecontentref_/1)
+├── [vite.config.js](http://_vscodecontentref_/2)
+├── vitest.config.ts
+├── src
+│   ├── main.ts
+│   ├── main.test.ts
+│   └── [vite-env.d.ts](http://_vscodecontentref_/3)
+└── README.md
+```
 
 ### Contributing
 
