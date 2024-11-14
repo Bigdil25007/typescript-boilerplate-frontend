@@ -7,10 +7,10 @@ export default defineConfig({
     include: ["src/**/*.test.ts", "src/**/*.test.tsx"],
     exclude: ["node_modules", "dist", "coverage", "public"],
     coverage: {
-      provider: "istanbul", // Utilisation de istanbul pour la couverture de code
-      reporter: ["text", "html"],
+      provider: "v8", // Use v8 for code coverage
+      reporter: ["html"],
       reportsDirectory: "./coverage",
-      include: ["src/**/*.ts", "src/**/*.tsx"],
+      include: ["src/**/*.{ts,tsx}"],
       exclude: ["src/**/*.d.ts"],
     },
     testTimeout: 30000, // Timeout global (en millisecondes)
