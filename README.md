@@ -101,7 +101,7 @@ To customize the project, you can modify the following files:
 - **Prettier Configuration**: Modify `.prettierrc` to change code formatting rules.
 - **Husky Configuration**: Modify `.husky/pre-commit` to change pre-commit hooks.
 - **EditorConfig**: Modify `.editorconfig` to change editor settings.
-- **NPM Scripts**: Modify the `scripts` objtct in `package.json` to add or change npm scripts.
+- **NPM Scripts**: Modify the `scripts` object in `package.json` to add or change npm scripts.
 
 ### Project Structure
 
