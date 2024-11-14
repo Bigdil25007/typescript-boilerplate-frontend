@@ -1,4 +1,4 @@
-# TypeScript Backend Boilerplate
+# TypeScript Frontend Boilerplate
 
 This is a boilerplate project for building frontend applications using Vite and TypeScript. It includes configurations for ESLint, Prettier, Husky, and Vitest.
 
