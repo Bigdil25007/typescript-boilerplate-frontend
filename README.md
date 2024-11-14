@@ -20,23 +20,11 @@ This is a boilerplate project for building frontend applications using Vite and 
 
 ### Installation
 
-1. Clone the repository:
-
-   ```sh
-   git clone https://github.com/Bigdil25007/typescript-boilerplate-frontend.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```sh
-   cd typescript-boilerplate
-   ```
-
-3. Install dependencies:
-
-   ```sh
-   npm install
-   ```
+```sh
+git clone https://github.com/Bigdil25007/typescript-boilerplate-frontend.git
+cd typescript-boilerplate
+npm install
+```
 
 ### Building the Project
 
@@ -52,9 +40,7 @@ This is a boilerplate project for building frontend applications using Vite and 
    npm run preview
    ```
 
-### Test Locallly
-
-To test on a local server:
+### Local Development
 
 ```sh
 npm run dev
