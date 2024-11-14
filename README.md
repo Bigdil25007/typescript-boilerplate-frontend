@@ -26,53 +26,16 @@ cd typescript-boilerplate
 npm install
 ```
 
-### Building the Project
+## Available Scripts
 
-1. Build the project:
-
-   ```sh
-   npm run build
-   ```
-
-2. Test the build the server:
-
-   ```sh
-   npm run preview
-   ```
-
-### Local Development
-
-```sh
-npm run dev
-```
-
-### Running Tests
-
-To run tests using Vitest:
-
-```sh
-npm run test
-```
-
-To generate a coverage report:
-
-```sh
-npm run coverage
-```
-
-### Linting and Formatting
-
-To lint the code using ESLint:
-
-```sh
-npm run lint
-```
-
-To format the code using Prettier:
-
-```sh
-npm run format:all
-```
+- `dev` - run on localhost
+- `build` - bundle the project using Vite
+- `preview` - preview the production build locally
+- `test` - run tests once using Vitest
+- `test:watch` - run tests in watch mode, re-running tests on file changes
+- `test:coverage` - run tests and generate a coverage report
+- `lint` - lint source files and tests using ESLint
+- `format:all` - reformat all files using Prettier
 
 ### Git Hooks
 
