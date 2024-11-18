@@ -22,7 +22,7 @@ This is a boilerplate project for building frontend applications using Vite and 
 
 ```sh
 git clone https://github.com/Bigdil25007/typescript-boilerplate-frontend.git
-cd typescript-boilerplate
+cd typescript-boilerplate-frontend
 npm install
 ```
 
