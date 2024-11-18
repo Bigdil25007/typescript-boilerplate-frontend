@@ -64,14 +64,13 @@ To customize the project, you can modify the following files:
 ├── .nvmrc
 ├── .prettierignore
 ├── .prettierrc
-├── [package.json](http://_vscodecontentref_/0)
-├── [tsconfig.json](http://_vscodecontentref_/1)
-├── [vite.config.js](http://_vscodecontentref_/2)
-├── vitest.config.ts
+├── package.json
+├── tsconfig.json
+├── vite.config.js
 ├── src
 │   ├── main.ts
 │   ├── main.test.ts
-│   └── [vite-env.d.ts](http://_vscodecontentref_/3)
+│   └── vite-env.d.ts
 └── README.md
 ```
 
