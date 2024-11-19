@@ -57,7 +57,7 @@ To customize the project, you can modify the following files:
 ```
 .
 ├── .editorconfig
-├── .eslintrc.cjs
+├── eslint.config.js
 ├── .gitignore
 ├── .husky
 │   └── pre-commit
