@@ -27,5 +27,5 @@
       "@public/*": ["public/*"]
     } // Must be sync with vite.config.js and eslint.config.js
   },
-  "include": ["src", "vite-env.d.ts"]
+  "include": ["src"]
 }

@@ -69,8 +69,7 @@ To customize the project, you can modify the following files:
 ├── vite.config.js
 ├── src
 │   ├── main.ts
-│   ├── main.test.ts
-│   └── vite-env.d.ts
+│   └── main.test.ts
 └── README.md
 ```
 
