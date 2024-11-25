@@ -29,13 +29,19 @@ npm install
 ## Available Scripts
 
 - `dev` - run on localhost
-- `build` - bundle the project using Vite
+- `build` - transpile TypeScript to ES6 and bundle the project using Vite
 - `preview` - preview the production build locally
 - `test` - run tests once using Vitest
 - `test:watch` - run tests in watch mode, re-running tests on file changes
 - `test:coverage` - run tests and generate a coverage report
-- `lint` - lint source files and tests using ESLint
+- `lint:dev` - lint source files in the `src` directory using ESLint
+- `lint:fix` - lint and fix source files in the `src` directory using ESLint
+- `lint:build` - run linting with no warnings allowed
+- `format` - format modified files using Prettier without staging them
+- `format:staged` - format staged files using Prettier and restage them
 - `format:all` - reformat all files using Prettier
+- `format-check` - check formatting of files using Prettier
+- `prepare` - install Husky hooks
 
 ### Git Hooks
 

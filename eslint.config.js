@@ -35,7 +35,6 @@ export default [
       "prettier/prettier": "error",
       "no-console": "warn",
       semi: ["warn", "always"],
-      quotes: ["warn", "single"],
     },
   },
 ];
