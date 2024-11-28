@@ -53,7 +53,7 @@ Husky is configured to run linting, formatting, and tests before each commit. Th
 To customize the project, you can modify the following files:
 
 - **TypeScript Configuration**: Modify `tsconfig.json` to change TypeScript compiler options.
-- **ESLint Configuration**: Modify `.eslintrc.cjs` to change linting rules and settings.
+- **ESLint Configuration**: Modify `eslint.config.js` to change linting rules and settings.
 - **Prettier Configuration**: Modify `.prettierrc` to change code formatting rules.
 - **Husky Configuration**: Modify `.husky/pre-commit` to change pre-commit hooks.
 - **EditorConfig**: Modify `.editorconfig` to change editor settings.
