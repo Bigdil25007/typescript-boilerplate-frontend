@@ -1,10 +1,10 @@
 {
-  "name": "typescript-boilerplate",
+  "name": "typescript-boilerplate-frontend",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "description": "Boilerplate made for typescript projects (includes Vitest, Prettier, ESLint and Husky)",
-  "main": "src/main.js",
+  "main": "src/main.ts",
   "author": "Bilal Oulahal",
   "scripts": {
     "check-type": "tsc --noEmit",
