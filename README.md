@@ -30,7 +30,7 @@ npm install
 
 - `check-type` - check for TypeScript type errors
 - `dev` - run on localhost
-- `build` - transpile TypeScript to ES6 and bundle the project using Vite
+- `build` - Bundle the project using Vite
 - `preview` - preview the production build locally
 - `test` - run tests once using Vitest
 - `test:watch` - run tests in watch mode, re-running tests on file changes
